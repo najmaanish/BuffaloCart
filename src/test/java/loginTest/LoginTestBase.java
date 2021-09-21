@@ -14,7 +14,7 @@ public class LoginTestBase {
 	@BeforeMethod
 	public void loadUrl()
 	{
-		driver= DriverFactory.getDriver("Chrome");
+		driver= DriverFactory.getDriver("FireFox");
 		driver=DriverFactory.setImplicitwait(10, driver);
 		driver.get("https://erp.buffalocart.com/login");
 	}
